@@ -1,1 +1,1 @@
-# Predicting_primes
+# Counting Primes
