@@ -29,5 +29,5 @@ $ python example.py
 9592
 Time for refactored code:  72.72154593467712
 9592
-Time for optimized code:  4.55500054359436
+Time for optimized code:  2.454136848449707
 ```
