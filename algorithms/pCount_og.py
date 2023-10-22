@@ -69,18 +69,18 @@ def createList(r1, r2):
         return len(poss) - len(mult) + 2, #mult, poss
 
 
-exit = "N"
+# exit = "N"
 
-while exit.upper() != "Y":
+# while exit.upper() != "Y":
 
-  # Driver Code
-  r1, r2, = 2, int(input("Enter an integer: ")),
-  start = time.time()
+  # # Driver Code
+  # r1, r2, = 2, int(input("Enter an integer: ")),
+  # start = time.time()
 
-  print(createList(r1, r2,))
+  # print(createList(r1, r2,))
 
 
-  end = time.time()
-  print('Time ', end - start)
+  # end = time.time()
+  # print('Time ', end - start)
 
-  exit = input("Would you like to exit? (Y/N)")
+  # exit = input("Would you like to exit? (Y/N)")
