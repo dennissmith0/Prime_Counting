@@ -3,6 +3,7 @@ def find_blocked_numbers(upper_limit):
     # Initialize lists to keep track of primes and blocked numbers
     primes = [2, 3]  # Initial prime numbers
     blocked = []  # List to keep track of blocked numbers
+    twin_primes = [] # List to keep track of twin primes
 
     # Function to check if a number is prime
     def is_prime(n):
@@ -22,7 +23,12 @@ def find_blocked_numbers(upper_limit):
             elif num > 7:  # We start adding to blocked list only after 5 and 7
                 blocked.append(num)
 
-    return blocked, primes
+    # Check for twin primes
+    for i in range(len(primes) - 1):
+        if primes[i + 1] - primes[i] == 2:
+            twin_primes.append((primes[i], primes[i +1]))
+
+    return twin_primes#, primes, blocked
 
 # Test the function for numbers up to 100
-print(find_blocked_numbers(300))
+print(find_blocked_numbers(1000000))
