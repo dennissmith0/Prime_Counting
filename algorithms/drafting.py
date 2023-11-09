@@ -20,7 +20,7 @@ def find_blocked_numbers(upper_limit):
                 break
             if num > 3 and is_prime(num):  # We skip 2 and 3, as they are already in the list
                 primes.append(num)
-            elif num > 7:  # We start adding to blocked list only after 5 and 7
+            elif num > 24:  # We start adding to blocked list only after 5's first multiple
                 blocked.append(num)
 
     # Check for twin primes
