@@ -1,6 +1,6 @@
 import time
 
-# Function to find twin primes within a given range of squares of input primes
+# Function to find amount of twin primes within a given range of squares of input numbers
 def find_twin_primes_between_squares(input_pair):
     lower_square = input_pair[0] ** 2
     upper_square = input_pair[1] ** 2
@@ -36,5 +36,5 @@ def find_twin_primes_between_squares(input_pair):
 
 # Test the function with input pair (p, p + 2)
 start_time = time.time()
-print(find_twin_primes_between_squares((1391, 1393)))
+print(find_twin_primes_between_squares((1403, 1405)))
 print('Time: ', (time.time() - start_time) / 60, ' minutes')
