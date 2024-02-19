@@ -2,8 +2,21 @@ use std::collections::HashSet;
 use std::sync::Arc;
 use std::thread;
 
+use clap::Parser;
+
+#[derive(Debug, Clone, Parser)]
+pub struct Cli {
+    #[arg(short = 'n', default_value = "1_000_000")]
+    pub n: i32,
+}
+
 fn main() {
-    let x = create_and_count(1_000_000);
+    let cli: Cli = Cli::parse();
+
+    println!("Running PNT w/ n = {}", cli.n);
+
+    let x = create_and_count(cli.n);
+
     println!("The result is: {x}");
 }
 
