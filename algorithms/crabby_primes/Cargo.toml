@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 ndarray = {version = "0.15.6", features = ["std", "rayon", "serde", "matrixmultiply-threading"] }
+num_cpus = "1.16.0"
 rayon = "1.8.1"
