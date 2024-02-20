@@ -13,6 +13,13 @@ clap = { version = "4.5.1", features = [
     "color",
     "wrap_help",
 ] }
+hashbrown = { version = "0.14.3", features = [
+    "ahash",
+    "allocator-api2",
+    "inline-more",
+    "rayon",
+    "serde",
+] }
 mimalloc = { version = "0.1.39" }
 ndarray = { version = "0.15.6", features = [
     "std",
@@ -29,3 +36,4 @@ range-set-blaze = { version = "0.1.15", features = [
     "itertools",
 ] }
 rayon = "1.8.1"
+rustc-hash = "1.1.0"
