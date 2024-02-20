@@ -20,4 +20,11 @@ ndarray = { version = "0.15.6", features = [
     "matrixmultiply-threading",
 ] }
 num_cpus = "1.16.0"
+range-set-blaze = { version = "0.1.15", features = [
+    "alloc",
+    "std",
+    "num-traits",
+    "num-integer",
+    "itertools",
+] }
 rayon = "1.8.1"

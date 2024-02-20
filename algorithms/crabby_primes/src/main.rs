@@ -1,13 +1,13 @@
-use std::collections::BTreeSet;
-use std::sync::Arc;
-use std::thread;
+#![feature(portable_simd)]
 
 use clap::Parser;
+// use range_set_blaze::RangeSetBlaze;
+// use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 
 #[derive(Debug, Clone, Parser)]
 pub struct Cli {
     #[arg(short = 'n', default_value = "1_000_000")]
-    pub n: i32,
+    pub n: u32,
 }
 
 fn main() {
@@ -20,54 +20,42 @@ fn main() {
     println!("The result is: {x}");
 }
 
-fn create_and_count(n: i32) -> u64 {
+fn create_and_count(n: u32) -> u32 {
     let deltas: [i32; 2] = [-1, 1];
     let mut poss = vec![];
+
+    let first_part = std::time::Instant::now();
+
     for (count, val) in (6..n + 1).step_by(6).enumerate() {
-        for &delta in &deltas {
-            poss.push((count, val + delta));
+        for delta in &deltas {
+            match delta.cmp(&0) {
+                std::cmp::Ordering::Less => {
+                    poss.push((count, val - 1));
+                }
+                std::cmp::Ordering::Greater => {
+                    poss.push((count, val + 1));
+                }
+                _ => unreachable!(),
+            }
         }
     }
-    let poss = Arc::new(poss);
 
-    let mut mult: BTreeSet<i32> = BTreeSet::new();
+    eprintln!("Firt part took: {:?}", first_part.elapsed());
 
-    let threads = num_cpus::get() - 1; // Get the number of CPUs
-    let mut handles = vec![];
+    let mult: std::collections::BTreeSet<u32> = poss
+        .iter()
+        .flat_map(|&(idx, i)| {
+            poss[idx..].iter().map_while(move |(_, j)| {
+                let product = i * j;
+                if product <= n {
+                    Some(product)
+                } else {
+                    None
+                }
+            })
+        })
+        .collect();
+    // .collect::<RangeSetBlaze<i32>>();
 
-    let chunk_size = poss.len() / threads;
-
-    for i in 0..threads {
-        let poss = Arc::clone(&poss);
-        let handle = thread::spawn(move || {
-            let start = chunk_size * i;
-            let end = if i == threads - 1 {
-                poss.len()
-            } else {
-                start + chunk_size
-            };
-
-            poss[start..end]
-                .iter()
-                .flat_map(|&(idx, i)| {
-                    poss[idx..].iter().map_while(move |(_, j)| {
-                        let product = i * j;
-                        if product <= n {
-                            Some(product)
-                        } else {
-                            None
-                        }
-                    })
-                })
-                .collect::<BTreeSet<_>>()
-        });
-        handles.push(handle);
-    }
-
-    for handle in handles {
-        let hs = handle.join().unwrap();
-        mult.extend(&hs);
-    }
-
-    (poss.len() - mult.len() + 2) as u64
+    poss.len() as u32 - mult.len() as u32 + 2_u32
 }
