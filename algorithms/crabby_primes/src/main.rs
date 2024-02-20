@@ -1,5 +1,15 @@
 #![feature(portable_simd)]
 
+// MiMalloc
+// #[cfg(target_env = "msvc")]
+use mimalloc::MiMalloc;
+
+// #[cfg(target_env = "msvc")]
+#[global_allocator]
+static GLOBAL: MiMalloc = MiMalloc;
+
+use std::collections::BTreeSet;
+
 use clap::Parser;
 // use range_set_blaze::RangeSetBlaze;
 // use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
@@ -7,7 +17,7 @@ use clap::Parser;
 #[derive(Debug, Clone, Parser)]
 pub struct Cli {
     #[arg(short = 'n', default_value = "1_000_000")]
-    pub n: u32,
+    pub n: u64,
 }
 
 fn main() {
@@ -20,42 +30,42 @@ fn main() {
     println!("The result is: {x}");
 }
 
-fn create_and_count(n: u32) -> u32 {
-    let deltas: [i32; 2] = [-1, 1];
+fn create_and_count(n: u64) -> u64 {
+    let deltas: [i8; 2] = [-1, 1];
     let mut poss = vec![];
 
     let first_part = std::time::Instant::now();
 
-    for (count, val) in (6..n + 1).step_by(6).enumerate() {
+    for val in (6..n + 1).step_by(6) {
         for delta in &deltas {
             match delta.cmp(&0) {
                 std::cmp::Ordering::Less => {
-                    poss.push((count, val - 1));
+                    poss.push(val - 1);
                 }
                 std::cmp::Ordering::Greater => {
-                    poss.push((count, val + 1));
+                    poss.push(val + 1);
                 }
                 _ => unreachable!(),
             }
         }
     }
 
-    eprintln!("Firt part took: {:?}", first_part.elapsed());
+    eprintln!("First part took: {:?}", first_part.elapsed());
 
-    let mult: std::collections::BTreeSet<u32> = poss
-        .iter()
-        .flat_map(|&(idx, i)| {
-            poss[idx..].iter().map_while(move |(_, j)| {
-                let product = i * j;
-                if product <= n {
-                    Some(product)
-                } else {
-                    None
-                }
-            })
-        })
-        .collect();
-    // .collect::<RangeSetBlaze<i32>>();
+    let mut mult: BTreeSet<u64> = BTreeSet::new();
 
-    poss.len() as u32 - mult.len() as u32 + 2_u32
+    for idx in 0..(poss.len() - 1) {
+        for inner_idx in idx..(poss.len() - 1) {
+            let product = poss[idx] * poss[inner_idx];
+            if product <= n {
+                mult.insert(product);
+            } else {
+                break;
+            }
+        }
+    }
+
+    eprintln!("Poss len = {}, Mult len = {}", poss.len(), mult.len());
+
+    poss.len() as u64 - mult.len() as u64 + 2_u64
 }
