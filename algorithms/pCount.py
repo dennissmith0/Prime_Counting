@@ -9,7 +9,7 @@ def create_and_count(n):
     mult = {i * j for i_index, i in enumerate(poss) for j in poss[i_index:] if i * j <= n}
 
     # Number of primes is difference of possible primes and multiples, plus 2 (for 2 and 3)
-    return len(poss) - len(mult) + 2
+    return len(poss), len(mult) #+ 2
 
 
 def create_and_count_optimized(n):
