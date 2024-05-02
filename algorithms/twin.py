@@ -32,9 +32,9 @@ def find_twin_primes_between_squares(input_pair):
                 print(f"Twin prime pair found between the squares: {primes[i]}, {primes[i + 1]}")
                 twin_primes_in_range.append((primes[i], primes[i + 1]))
 
-    return twin_primes_in_range, len(twin_primes_in_range), input_pair
+    return  input_pair, twin_primes_in_range, len(twin_primes_in_range)
 
 # Test the function with input pair (p, p + 2)
 start_time = time.time()
-print(find_twin_primes_between_squares((3281, 3283)))
+print(find_twin_primes_between_squares((3299, 3301)))
 print('Time: ', (time.time() - start_time) / 60, ' minutes')
