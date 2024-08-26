@@ -29,12 +29,12 @@ def find_twin_primes_between_squares(input_pair):
     for i in range(len(primes) - 1):
         if primes[i + 1] - primes[i] == 2:
             if lower_square < primes[i] < upper_square:
-                print(f"Twin prime pair found between the squares: {primes[i]}, {primes[i + 1]}")
+                print(f"Twin prime found on square island: {primes[i]}, {primes[i + 1]}")
                 twin_primes_in_range.append((primes[i], primes[i + 1]))
 
     return  input_pair, twin_primes_in_range, len(twin_primes_in_range)
 
 # Test the function with input pair (p, p + 2)
 start_time = time.time()
-print(find_twin_primes_between_squares((4873, 4875)))
+print(find_twin_primes_between_squares((4909, 4911)))
 print('Time: ', (time.time() - start_time) / 60, ' minutes')
