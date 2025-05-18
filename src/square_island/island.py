@@ -40,35 +40,51 @@ def generate_pairs(n):
             num += 1
     return pairs
 
-def count_valid_multiples(start, end, num):
-    """Count valid multiples of num in range [start, end] not divisible by 2 or 3."""
-    lcm = num * 6 // math.gcd(num, 6)
-    first_multiple = math.ceil(start / num) * num
-    while first_multiple % 2 == 0 or first_multiple % 3 == 0:
-        first_multiple += num
-    last_multiple = (end // num) * num
-    while last_multiple % 2 == 0 or last_multiple % 3 == 0:
-        last_multiple -= num
-    if first_multiple > last_multiple:
-        return 0
-    count = (math.floor((last_multiple - first_multiple) / lcm) * 2 +
-             math.ceil((lcm - (first_multiple % 6 - 1)) / 6) +
-             math.ceil((lcm - (first_multiple % 6 - 5)) / 6))
+def count_blocked_by_prime(start, end, p):
+    """
+    Count j in [start,end] with j % p == 0 and j % 6 in (1,5).
+    """
+    first = math.ceil(start / p) * p
+    count = 0
+    n = first
+    while n <= end:
+        if n % 6 in (1, 5):
+            count += 1
+        n += p
     return count
 
-def count_all_valid_multiples(a, b):
+def count_blocked_positions(a, b):
     """
-    Count all valid multiples for prime numbers up to floor(sqrt(a)) in range [a^2, b^2].
-    Only considers primes >= 5.
+    Count all positions in [a^2, b^2] that are blocked by a prime p with 5 <= p < a.
+    A position j is blocked by p if j % p == 0 and j % 6 in (1,5).
     """
-    start, end = a**2, b**2
-    # Generate only prime divisors up to floor(sqrt(a))
-    limit = int(math.sqrt(a))
-    primes = [p for p in simple_sieve(limit) if p >= 5]
+    start, end = a * a, b * b
+    # Generate all primes up to b, consider only those with 5 <= p < a
+    primes = [p for p in simple_sieve(b) if p >= 5 and p < a]
     total_count = 0
-    for num in primes:
-        total_count += count_valid_multiples(start, end, num)
+    for p in primes:
+        total_count += count_blocked_by_prime(start, end, p)
     return total_count
+
+def count_raw_p3_positions(a, b):
+    """
+    Total prime-candidate slots (≡1 or 5 mod 6) in island [a^2, b^2], before removing corners.
+    """
+    return (b * b - a * a + 1) // 3
+
+def count_effective_p3_positions(a, b):
+    """
+    Prime-candidate slots in island [a^2, b^2] minus the two corner positions a^2 and b^2.
+    """
+    return count_raw_p3_positions(a, b) - 2
+
+def count_primes_in_island(a, b):
+    """
+    Returns the number of primes in the island [a^2, b^2] using the p3 method.
+    """
+    blocked = count_blocked_positions(a, b)
+    total_candidates = count_effective_p3_positions(a, b)
+    return total_candidates - blocked
 
 def save_result_to_db(pair, count, db_path=DB_PATH):
     """Save a result to the SQLite database."""
@@ -94,7 +110,7 @@ def process_and_cache_pairs(n):
     """Process n pairs and cache results to DB."""
     pairs = generate_pairs(n)
     for pair in pairs:
-        count = count_all_valid_multiples(pair[0], pair[1])
+        count = count_blocked_positions(pair[0], pair[1])
         save_result_to_db(pair, count)
         logging.info(f"Processed pair {pair}: {count}")
 
