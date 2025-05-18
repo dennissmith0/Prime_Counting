@@ -1,0 +1,808 @@
+2025-05-17 20:16:21,763 INFO:Starting square-island computation...
+2025-05-17 20:16:21,765 INFO:Saved result for pair (5, 7): 0
+2025-05-17 20:16:21,765 INFO:Processed pair (5, 7): 0
+2025-05-17 20:16:21,766 INFO:Saved result for pair (11, 13): 0
+2025-05-17 20:16:21,766 INFO:Processed pair (11, 13): 0
+2025-05-17 20:16:21,768 INFO:Saved result for pair (17, 19): 0
+2025-05-17 20:16:21,768 INFO:Processed pair (17, 19): 0
+2025-05-17 20:16:21,769 INFO:Saved result for pair (23, 25): 0
+2025-05-17 20:16:21,769 INFO:Processed pair (23, 25): 0
+2025-05-17 20:16:21,770 INFO:Saved result for pair (29, 31): 16
+2025-05-17 20:16:21,770 INFO:Processed pair (29, 31): 16
+2025-05-17 20:16:21,771 INFO:Saved result for pair (35, 37): 19
+2025-05-17 20:16:21,771 INFO:Processed pair (35, 37): 19
+2025-05-17 20:16:21,771 INFO:Saved result for pair (41, 43): 20
+2025-05-17 20:16:21,771 INFO:Processed pair (41, 43): 20
+2025-05-17 20:16:21,773 INFO:Saved result for pair (47, 49): 23
+2025-05-17 20:16:21,773 INFO:Processed pair (47, 49): 23
+2025-05-17 20:16:21,774 INFO:Saved result for pair (53, 55): 48
+2025-05-17 20:16:21,774 INFO:Processed pair (53, 55): 48
+2025-05-17 20:16:21,774 INFO:Saved result for pair (59, 61): 49
+2025-05-17 20:16:21,774 INFO:Processed pair (59, 61): 49
+2025-05-17 20:16:21,775 INFO:Saved result for pair (65, 67): 53
+2025-05-17 20:16:21,775 INFO:Processed pair (65, 67): 53
+2025-05-17 20:16:21,775 INFO:Saved result for pair (71, 73): 55
+2025-05-17 20:16:21,775 INFO:Processed pair (71, 73): 55
+2025-05-17 20:16:21,776 INFO:Saved result for pair (77, 79): 60
+2025-05-17 20:16:21,776 INFO:Processed pair (77, 79): 60
+2025-05-17 20:16:21,776 INFO:Saved result for pair (83, 85): 62
+2025-05-17 20:16:21,776 INFO:Processed pair (83, 85): 62
+2025-05-17 20:16:21,777 INFO:Saved result for pair (89, 91): 62
+2025-05-17 20:16:21,777 INFO:Processed pair (89, 91): 62
+2025-05-17 20:16:21,777 INFO:Saved result for pair (95, 97): 66
+2025-05-17 20:16:21,777 INFO:Processed pair (95, 97): 66
+2025-05-17 20:16:21,778 INFO:Saved result for pair (101, 103): 69
+2025-05-17 20:16:21,778 INFO:Processed pair (101, 103): 69
+2025-05-17 20:16:21,779 INFO:Saved result for pair (107, 109): 73
+2025-05-17 20:16:21,779 INFO:Processed pair (107, 109): 73
+2025-05-17 20:16:21,779 INFO:Saved result for pair (113, 115): 76
+2025-05-17 20:16:21,779 INFO:Processed pair (113, 115): 76
+2025-05-17 20:16:21,779 INFO:Saved result for pair (119, 121): 77
+2025-05-17 20:16:21,780 INFO:Processed pair (119, 121): 77
+2025-05-17 20:16:21,780 INFO:Saved result for pair (125, 127): 117
+2025-05-17 20:16:21,780 INFO:Processed pair (125, 127): 117
+2025-05-17 20:16:21,781 INFO:Saved result for pair (131, 133): 118
+2025-05-17 20:16:21,781 INFO:Processed pair (131, 133): 118
+2025-05-17 20:16:21,781 INFO:Saved result for pair (137, 139): 123
+2025-05-17 20:16:21,781 INFO:Processed pair (137, 139): 123
+2025-05-17 20:16:21,782 INFO:Saved result for pair (143, 145): 129
+2025-05-17 20:16:21,782 INFO:Processed pair (143, 145): 129
+2025-05-17 20:16:21,782 INFO:Saved result for pair (149, 151): 129
+2025-05-17 20:16:21,782 INFO:Processed pair (149, 151): 129
+2025-05-17 20:16:21,783 INFO:Saved result for pair (155, 157): 134
+2025-05-17 20:16:21,783 INFO:Processed pair (155, 157): 134
+2025-05-17 20:16:21,783 INFO:Saved result for pair (161, 163): 138
+2025-05-17 20:16:21,783 INFO:Processed pair (161, 163): 138
+2025-05-17 20:16:21,784 INFO:Saved result for pair (167, 169): 141
+2025-05-17 20:16:21,784 INFO:Processed pair (167, 169): 141
+2025-05-17 20:16:21,784 INFO:Saved result for pair (173, 175): 188
+2025-05-17 20:16:21,784 INFO:Processed pair (173, 175): 188
+2025-05-17 20:16:21,785 INFO:Saved result for pair (179, 181): 190
+2025-05-17 20:16:21,785 INFO:Processed pair (179, 181): 190
+2025-05-17 20:16:21,785 INFO:Saved result for pair (185, 187): 197
+2025-05-17 20:16:21,786 INFO:Processed pair (185, 187): 197
+2025-05-17 20:16:21,786 INFO:Saved result for pair (191, 193): 199
+2025-05-17 20:16:21,786 INFO:Processed pair (191, 193): 199
+2025-05-17 20:16:21,787 INFO:Saved result for pair (197, 199): 202
+2025-05-17 20:16:21,787 INFO:Processed pair (197, 199): 202
+2025-05-17 20:16:21,787 INFO:Saved result for pair (203, 205): 207
+2025-05-17 20:16:21,787 INFO:Processed pair (203, 205): 207
+2025-05-17 20:16:21,788 INFO:Saved result for pair (209, 211): 211
+2025-05-17 20:16:21,788 INFO:Processed pair (209, 211): 211
+2025-05-17 20:16:21,788 INFO:Saved result for pair (215, 217): 214
+2025-05-17 20:16:21,788 INFO:Processed pair (215, 217): 214
+2025-05-17 20:16:21,789 INFO:Saved result for pair (221, 223): 220
+2025-05-17 20:16:21,789 INFO:Processed pair (221, 223): 220
+2025-05-17 20:16:21,789 INFO:Saved result for pair (227, 229): 225
+2025-05-17 20:16:21,789 INFO:Processed pair (227, 229): 225
+2025-05-17 20:16:21,790 INFO:Saved result for pair (233, 235): 229
+2025-05-17 20:16:21,790 INFO:Processed pair (233, 235): 229
+2025-05-17 20:16:21,790 INFO:Saved result for pair (239, 241): 230
+2025-05-17 20:16:21,790 INFO:Processed pair (239, 241): 230
+2025-05-17 20:16:21,791 INFO:Saved result for pair (245, 247): 237
+2025-05-17 20:16:21,791 INFO:Processed pair (245, 247): 237
+2025-05-17 20:16:21,791 INFO:Saved result for pair (251, 253): 240
+2025-05-17 20:16:21,791 INFO:Processed pair (251, 253): 240
+2025-05-17 20:16:21,792 INFO:Saved result for pair (257, 259): 246
+2025-05-17 20:16:21,792 INFO:Processed pair (257, 259): 246
+2025-05-17 20:16:21,792 INFO:Saved result for pair (263, 265): 248
+2025-05-17 20:16:21,792 INFO:Processed pair (263, 265): 248
+2025-05-17 20:16:21,793 INFO:Saved result for pair (269, 271): 250
+2025-05-17 20:16:21,793 INFO:Processed pair (269, 271): 250
+2025-05-17 20:16:21,793 INFO:Saved result for pair (275, 277): 256
+2025-05-17 20:16:21,793 INFO:Processed pair (275, 277): 256
+2025-05-17 20:16:21,793 INFO:Saved result for pair (281, 283): 258
+2025-05-17 20:16:21,793 INFO:Processed pair (281, 283): 258
+2025-05-17 20:16:21,794 INFO:Saved result for pair (287, 289): 267
+2025-05-17 20:16:21,794 INFO:Processed pair (287, 289): 267
+2025-05-17 20:16:21,795 INFO:Saved result for pair (293, 295): 326
+2025-05-17 20:16:21,795 INFO:Processed pair (293, 295): 326
+2025-05-17 20:16:21,795 INFO:Saved result for pair (299, 301): 329
+2025-05-17 20:16:21,795 INFO:Processed pair (299, 301): 329
+2025-05-17 20:16:21,796 INFO:Saved result for pair (305, 307): 333
+2025-05-17 20:16:21,796 INFO:Processed pair (305, 307): 333
+2025-05-17 20:16:21,796 INFO:Saved result for pair (311, 313): 338
+2025-05-17 20:16:21,796 INFO:Processed pair (311, 313): 338
+2025-05-17 20:16:21,797 INFO:Saved result for pair (317, 319): 343
+2025-05-17 20:16:21,797 INFO:Processed pair (317, 319): 343
+2025-05-17 20:16:21,797 INFO:Saved result for pair (323, 325): 350
+2025-05-17 20:16:21,797 INFO:Processed pair (323, 325): 350
+2025-05-17 20:16:21,798 INFO:Saved result for pair (329, 331): 350
+2025-05-17 20:16:21,798 INFO:Processed pair (329, 331): 350
+2025-05-17 20:16:21,798 INFO:Saved result for pair (335, 337): 356
+2025-05-17 20:16:21,798 INFO:Processed pair (335, 337): 356
+2025-05-17 20:16:21,799 INFO:Saved result for pair (341, 343): 361
+2025-05-17 20:16:21,799 INFO:Processed pair (341, 343): 361
+2025-05-17 20:16:21,799 INFO:Saved result for pair (347, 349): 366
+2025-05-17 20:16:21,799 INFO:Processed pair (347, 349): 366
+2025-05-17 20:16:21,800 INFO:Saved result for pair (353, 355): 371
+2025-05-17 20:16:21,800 INFO:Processed pair (353, 355): 371
+2025-05-17 20:16:21,800 INFO:Saved result for pair (359, 361): 372
+2025-05-17 20:16:21,800 INFO:Processed pair (359, 361): 372
+2025-05-17 20:16:21,801 INFO:Saved result for pair (365, 367): 442
+2025-05-17 20:16:21,801 INFO:Processed pair (365, 367): 442
+2025-05-17 20:16:21,801 INFO:Saved result for pair (371, 373): 447
+2025-05-17 20:16:21,801 INFO:Processed pair (371, 373): 447
+2025-05-17 20:16:21,802 INFO:Saved result for pair (377, 379): 455
+2025-05-17 20:16:21,802 INFO:Processed pair (377, 379): 455
+2025-05-17 20:16:21,802 INFO:Saved result for pair (383, 385): 460
+2025-05-17 20:16:21,802 INFO:Processed pair (383, 385): 460
+2025-05-17 20:16:21,803 INFO:Saved result for pair (389, 391): 462
+2025-05-17 20:16:21,803 INFO:Processed pair (389, 391): 462
+2025-05-17 20:16:21,803 INFO:Saved result for pair (395, 397): 465
+2025-05-17 20:16:21,803 INFO:Processed pair (395, 397): 465
+2025-05-17 20:16:21,803 INFO:Saved result for pair (401, 403): 470
+2025-05-17 20:16:21,803 INFO:Processed pair (401, 403): 470
+2025-05-17 20:16:21,804 INFO:Saved result for pair (407, 409): 478
+2025-05-17 20:16:21,804 INFO:Processed pair (407, 409): 478
+2025-05-17 20:16:21,804 INFO:Saved result for pair (413, 415): 482
+2025-05-17 20:16:21,804 INFO:Processed pair (413, 415): 482
+2025-05-17 20:16:21,805 INFO:Saved result for pair (419, 421): 485
+2025-05-17 20:16:21,805 INFO:Processed pair (419, 421): 485
+2025-05-17 20:16:21,805 INFO:Saved result for pair (425, 427): 491
+2025-05-17 20:16:21,805 INFO:Processed pair (425, 427): 491
+2025-05-17 20:16:21,806 INFO:Saved result for pair (431, 433): 493
+2025-05-17 20:16:21,806 INFO:Processed pair (431, 433): 493
+2025-05-17 20:16:21,806 INFO:Saved result for pair (437, 439): 503
+2025-05-17 20:16:21,806 INFO:Processed pair (437, 439): 503
+2025-05-17 20:16:21,806 INFO:Saved result for pair (443, 445): 509
+2025-05-17 20:16:21,806 INFO:Processed pair (443, 445): 509
+2025-05-17 20:16:21,807 INFO:Saved result for pair (449, 451): 511
+2025-05-17 20:16:21,807 INFO:Processed pair (449, 451): 511
+2025-05-17 20:16:21,808 INFO:Saved result for pair (455, 457): 520
+2025-05-17 20:16:21,808 INFO:Processed pair (455, 457): 520
+2025-05-17 20:16:21,808 INFO:Saved result for pair (461, 463): 518
+2025-05-17 20:16:21,808 INFO:Processed pair (461, 463): 518
+2025-05-17 20:16:21,809 INFO:Saved result for pair (467, 469): 528
+2025-05-17 20:16:21,809 INFO:Processed pair (467, 469): 528
+2025-05-17 20:16:21,809 INFO:Saved result for pair (473, 475): 532
+2025-05-17 20:16:21,809 INFO:Processed pair (473, 475): 532
+2025-05-17 20:16:21,809 INFO:Saved result for pair (479, 481): 535
+2025-05-17 20:16:21,809 INFO:Processed pair (479, 481): 535
+2025-05-17 20:16:21,810 INFO:Saved result for pair (485, 487): 541
+2025-05-17 20:16:21,810 INFO:Processed pair (485, 487): 541
+2025-05-17 20:16:21,810 INFO:Saved result for pair (491, 493): 549
+2025-05-17 20:16:21,810 INFO:Processed pair (491, 493): 549
+2025-05-17 20:16:21,811 INFO:Saved result for pair (497, 499): 554
+2025-05-17 20:16:21,811 INFO:Processed pair (497, 499): 554
+2025-05-17 20:16:21,811 INFO:Saved result for pair (503, 505): 558
+2025-05-17 20:16:21,811 INFO:Processed pair (503, 505): 558
+2025-05-17 20:16:21,811 INFO:Saved result for pair (509, 511): 557
+2025-05-17 20:16:21,811 INFO:Processed pair (509, 511): 557
+2025-05-17 20:16:21,812 INFO:Saved result for pair (515, 517): 564
+2025-05-17 20:16:21,812 INFO:Processed pair (515, 517): 564
+2025-05-17 20:16:21,812 INFO:Saved result for pair (521, 523): 573
+2025-05-17 20:16:21,812 INFO:Processed pair (521, 523): 573
+2025-05-17 20:16:21,813 INFO:Saved result for pair (527, 529): 574
+2025-05-17 20:16:21,813 INFO:Processed pair (527, 529): 574
+2025-05-17 20:16:21,813 INFO:Saved result for pair (533, 535): 661
+2025-05-17 20:16:21,813 INFO:Processed pair (533, 535): 661
+2025-05-17 20:16:21,814 INFO:Saved result for pair (539, 541): 662
+2025-05-17 20:16:21,814 INFO:Processed pair (539, 541): 662
+2025-05-17 20:16:21,814 INFO:Saved result for pair (545, 547): 667
+2025-05-17 20:16:21,814 INFO:Processed pair (545, 547): 667
+2025-05-17 20:16:21,815 INFO:Saved result for pair (551, 553): 672
+2025-05-17 20:16:21,815 INFO:Processed pair (551, 553): 672
+2025-05-17 20:16:21,815 INFO:Saved result for pair (557, 559): 679
+2025-05-17 20:16:21,815 INFO:Processed pair (557, 559): 679
+2025-05-17 20:16:21,815 INFO:Saved result for pair (563, 565): 684
+2025-05-17 20:16:21,815 INFO:Processed pair (563, 565): 684
+2025-05-17 20:16:21,816 INFO:Saved result for pair (569, 571): 690
+2025-05-17 20:16:21,816 INFO:Processed pair (569, 571): 690
+2025-05-17 20:16:21,816 INFO:Saved result for pair (575, 577): 695
+2025-05-17 20:16:21,816 INFO:Processed pair (575, 577): 695
+2025-05-17 20:16:21,817 INFO:Saved result for pair (581, 583): 702
+2025-05-17 20:16:21,817 INFO:Processed pair (581, 583): 702
+2025-05-17 20:16:21,817 INFO:Saved result for pair (587, 589): 705
+2025-05-17 20:16:21,817 INFO:Processed pair (587, 589): 705
+2025-05-17 20:16:21,818 INFO:Saved result for pair (593, 595): 709
+2025-05-17 20:16:21,818 INFO:Processed pair (593, 595): 709
+2025-05-17 20:16:21,818 INFO:Saved result for pair (599, 601): 714
+2025-05-17 20:16:21,818 INFO:Processed pair (599, 601): 714
+2025-05-17 20:16:21,818 INFO:Computation complete.
+2025-05-17 20:17:44,656 INFO:Starting square-island computation...
+2025-05-17 20:17:44,658 INFO:Saved result for pair (5, 7): 0
+2025-05-17 20:17:44,658 INFO:Processed pair (5, 7): 0
+2025-05-17 20:17:44,659 INFO:Saved result for pair (11, 13): 0
+2025-05-17 20:17:44,659 INFO:Processed pair (11, 13): 0
+2025-05-17 20:17:44,659 INFO:Saved result for pair (17, 19): 0
+2025-05-17 20:17:44,659 INFO:Processed pair (17, 19): 0
+2025-05-17 20:17:44,659 INFO:Saved result for pair (23, 25): 0
+2025-05-17 20:17:44,660 INFO:Processed pair (23, 25): 0
+2025-05-17 20:17:44,660 INFO:Saved result for pair (29, 31): 16
+2025-05-17 20:17:44,660 INFO:Processed pair (29, 31): 16
+2025-05-17 20:17:44,660 INFO:Saved result for pair (35, 37): 19
+2025-05-17 20:17:44,660 INFO:Processed pair (35, 37): 19
+2025-05-17 20:17:44,661 INFO:Saved result for pair (41, 43): 20
+2025-05-17 20:17:44,661 INFO:Processed pair (41, 43): 20
+2025-05-17 20:17:44,661 INFO:Saved result for pair (47, 49): 23
+2025-05-17 20:17:44,661 INFO:Processed pair (47, 49): 23
+2025-05-17 20:17:44,661 INFO:Saved result for pair (53, 55): 48
+2025-05-17 20:17:44,661 INFO:Processed pair (53, 55): 48
+2025-05-17 20:17:44,662 INFO:Saved result for pair (59, 61): 49
+2025-05-17 20:17:44,662 INFO:Processed pair (59, 61): 49
+2025-05-17 20:17:44,662 INFO:Saved result for pair (65, 67): 53
+2025-05-17 20:17:44,662 INFO:Processed pair (65, 67): 53
+2025-05-17 20:17:44,663 INFO:Saved result for pair (71, 73): 55
+2025-05-17 20:17:44,663 INFO:Processed pair (71, 73): 55
+2025-05-17 20:17:44,663 INFO:Saved result for pair (77, 79): 60
+2025-05-17 20:17:44,663 INFO:Processed pair (77, 79): 60
+2025-05-17 20:17:44,663 INFO:Saved result for pair (83, 85): 62
+2025-05-17 20:17:44,663 INFO:Processed pair (83, 85): 62
+2025-05-17 20:17:44,664 INFO:Saved result for pair (89, 91): 62
+2025-05-17 20:17:44,664 INFO:Processed pair (89, 91): 62
+2025-05-17 20:17:44,664 INFO:Saved result for pair (95, 97): 66
+2025-05-17 20:17:44,664 INFO:Processed pair (95, 97): 66
+2025-05-17 20:17:44,665 INFO:Saved result for pair (101, 103): 69
+2025-05-17 20:17:44,665 INFO:Processed pair (101, 103): 69
+2025-05-17 20:17:44,665 INFO:Saved result for pair (107, 109): 73
+2025-05-17 20:17:44,665 INFO:Processed pair (107, 109): 73
+2025-05-17 20:17:44,665 INFO:Saved result for pair (113, 115): 76
+2025-05-17 20:17:44,665 INFO:Processed pair (113, 115): 76
+2025-05-17 20:17:44,666 INFO:Saved result for pair (119, 121): 77
+2025-05-17 20:17:44,666 INFO:Processed pair (119, 121): 77
+2025-05-17 20:17:44,666 INFO:Saved result for pair (125, 127): 117
+2025-05-17 20:17:44,666 INFO:Processed pair (125, 127): 117
+2025-05-17 20:17:44,667 INFO:Saved result for pair (131, 133): 118
+2025-05-17 20:17:44,667 INFO:Processed pair (131, 133): 118
+2025-05-17 20:17:44,667 INFO:Saved result for pair (137, 139): 123
+2025-05-17 20:17:44,667 INFO:Processed pair (137, 139): 123
+2025-05-17 20:17:44,668 INFO:Saved result for pair (143, 145): 129
+2025-05-17 20:17:44,668 INFO:Processed pair (143, 145): 129
+2025-05-17 20:17:44,668 INFO:Saved result for pair (149, 151): 129
+2025-05-17 20:17:44,668 INFO:Processed pair (149, 151): 129
+2025-05-17 20:17:44,668 INFO:Saved result for pair (155, 157): 134
+2025-05-17 20:17:44,668 INFO:Processed pair (155, 157): 134
+2025-05-17 20:17:44,669 INFO:Saved result for pair (161, 163): 138
+2025-05-17 20:17:44,669 INFO:Processed pair (161, 163): 138
+2025-05-17 20:17:44,669 INFO:Saved result for pair (167, 169): 141
+2025-05-17 20:17:44,669 INFO:Processed pair (167, 169): 141
+2025-05-17 20:17:44,670 INFO:Saved result for pair (173, 175): 188
+2025-05-17 20:17:44,670 INFO:Processed pair (173, 175): 188
+2025-05-17 20:17:44,670 INFO:Saved result for pair (179, 181): 190
+2025-05-17 20:17:44,670 INFO:Processed pair (179, 181): 190
+2025-05-17 20:17:44,671 INFO:Saved result for pair (185, 187): 197
+2025-05-17 20:17:44,671 INFO:Processed pair (185, 187): 197
+2025-05-17 20:17:44,671 INFO:Saved result for pair (191, 193): 199
+2025-05-17 20:17:44,671 INFO:Processed pair (191, 193): 199
+2025-05-17 20:17:44,671 INFO:Saved result for pair (197, 199): 202
+2025-05-17 20:17:44,671 INFO:Processed pair (197, 199): 202
+2025-05-17 20:17:44,672 INFO:Saved result for pair (203, 205): 207
+2025-05-17 20:17:44,672 INFO:Processed pair (203, 205): 207
+2025-05-17 20:17:44,672 INFO:Saved result for pair (209, 211): 211
+2025-05-17 20:17:44,672 INFO:Processed pair (209, 211): 211
+2025-05-17 20:17:44,672 INFO:Saved result for pair (215, 217): 214
+2025-05-17 20:17:44,672 INFO:Processed pair (215, 217): 214
+2025-05-17 20:17:44,673 INFO:Saved result for pair (221, 223): 220
+2025-05-17 20:17:44,673 INFO:Processed pair (221, 223): 220
+2025-05-17 20:17:44,673 INFO:Saved result for pair (227, 229): 225
+2025-05-17 20:17:44,673 INFO:Processed pair (227, 229): 225
+2025-05-17 20:17:44,673 INFO:Saved result for pair (233, 235): 229
+2025-05-17 20:17:44,673 INFO:Processed pair (233, 235): 229
+2025-05-17 20:17:44,674 INFO:Saved result for pair (239, 241): 230
+2025-05-17 20:17:44,674 INFO:Processed pair (239, 241): 230
+2025-05-17 20:17:44,674 INFO:Saved result for pair (245, 247): 237
+2025-05-17 20:17:44,674 INFO:Processed pair (245, 247): 237
+2025-05-17 20:17:44,675 INFO:Saved result for pair (251, 253): 240
+2025-05-17 20:17:44,675 INFO:Processed pair (251, 253): 240
+2025-05-17 20:17:44,675 INFO:Saved result for pair (257, 259): 246
+2025-05-17 20:17:44,675 INFO:Processed pair (257, 259): 246
+2025-05-17 20:17:44,675 INFO:Saved result for pair (263, 265): 248
+2025-05-17 20:17:44,675 INFO:Processed pair (263, 265): 248
+2025-05-17 20:17:44,676 INFO:Saved result for pair (269, 271): 250
+2025-05-17 20:17:44,676 INFO:Processed pair (269, 271): 250
+2025-05-17 20:17:44,676 INFO:Saved result for pair (275, 277): 256
+2025-05-17 20:17:44,676 INFO:Processed pair (275, 277): 256
+2025-05-17 20:17:44,677 INFO:Saved result for pair (281, 283): 258
+2025-05-17 20:17:44,677 INFO:Processed pair (281, 283): 258
+2025-05-17 20:17:44,677 INFO:Saved result for pair (287, 289): 267
+2025-05-17 20:17:44,677 INFO:Processed pair (287, 289): 267
+2025-05-17 20:17:44,678 INFO:Saved result for pair (293, 295): 326
+2025-05-17 20:17:44,678 INFO:Processed pair (293, 295): 326
+2025-05-17 20:17:44,678 INFO:Saved result for pair (299, 301): 329
+2025-05-17 20:17:44,678 INFO:Processed pair (299, 301): 329
+2025-05-17 20:17:44,678 INFO:Saved result for pair (305, 307): 333
+2025-05-17 20:17:44,678 INFO:Processed pair (305, 307): 333
+2025-05-17 20:17:44,679 INFO:Saved result for pair (311, 313): 338
+2025-05-17 20:17:44,679 INFO:Processed pair (311, 313): 338
+2025-05-17 20:17:44,679 INFO:Saved result for pair (317, 319): 343
+2025-05-17 20:17:44,679 INFO:Processed pair (317, 319): 343
+2025-05-17 20:17:44,680 INFO:Saved result for pair (323, 325): 350
+2025-05-17 20:17:44,680 INFO:Processed pair (323, 325): 350
+2025-05-17 20:17:44,680 INFO:Saved result for pair (329, 331): 350
+2025-05-17 20:17:44,680 INFO:Processed pair (329, 331): 350
+2025-05-17 20:17:44,680 INFO:Saved result for pair (335, 337): 356
+2025-05-17 20:17:44,680 INFO:Processed pair (335, 337): 356
+2025-05-17 20:17:44,681 INFO:Saved result for pair (341, 343): 361
+2025-05-17 20:17:44,681 INFO:Processed pair (341, 343): 361
+2025-05-17 20:17:44,681 INFO:Saved result for pair (347, 349): 366
+2025-05-17 20:17:44,681 INFO:Processed pair (347, 349): 366
+2025-05-17 20:17:44,681 INFO:Saved result for pair (353, 355): 371
+2025-05-17 20:17:44,681 INFO:Processed pair (353, 355): 371
+2025-05-17 20:17:44,682 INFO:Saved result for pair (359, 361): 372
+2025-05-17 20:17:44,682 INFO:Processed pair (359, 361): 372
+2025-05-17 20:17:44,682 INFO:Saved result for pair (365, 367): 442
+2025-05-17 20:17:44,682 INFO:Processed pair (365, 367): 442
+2025-05-17 20:17:44,683 INFO:Saved result for pair (371, 373): 447
+2025-05-17 20:17:44,683 INFO:Processed pair (371, 373): 447
+2025-05-17 20:17:44,683 INFO:Saved result for pair (377, 379): 455
+2025-05-17 20:17:44,683 INFO:Processed pair (377, 379): 455
+2025-05-17 20:17:44,683 INFO:Saved result for pair (383, 385): 460
+2025-05-17 20:17:44,683 INFO:Processed pair (383, 385): 460
+2025-05-17 20:17:44,684 INFO:Saved result for pair (389, 391): 462
+2025-05-17 20:17:44,684 INFO:Processed pair (389, 391): 462
+2025-05-17 20:17:44,684 INFO:Saved result for pair (395, 397): 465
+2025-05-17 20:17:44,684 INFO:Processed pair (395, 397): 465
+2025-05-17 20:17:44,684 INFO:Saved result for pair (401, 403): 470
+2025-05-17 20:17:44,684 INFO:Processed pair (401, 403): 470
+2025-05-17 20:17:44,685 INFO:Saved result for pair (407, 409): 478
+2025-05-17 20:17:44,685 INFO:Processed pair (407, 409): 478
+2025-05-17 20:17:44,685 INFO:Saved result for pair (413, 415): 482
+2025-05-17 20:17:44,685 INFO:Processed pair (413, 415): 482
+2025-05-17 20:17:44,685 INFO:Saved result for pair (419, 421): 485
+2025-05-17 20:17:44,685 INFO:Processed pair (419, 421): 485
+2025-05-17 20:17:44,686 INFO:Saved result for pair (425, 427): 491
+2025-05-17 20:17:44,686 INFO:Processed pair (425, 427): 491
+2025-05-17 20:17:44,686 INFO:Saved result for pair (431, 433): 493
+2025-05-17 20:17:44,686 INFO:Processed pair (431, 433): 493
+2025-05-17 20:17:44,687 INFO:Saved result for pair (437, 439): 503
+2025-05-17 20:17:44,687 INFO:Processed pair (437, 439): 503
+2025-05-17 20:17:44,687 INFO:Saved result for pair (443, 445): 509
+2025-05-17 20:17:44,687 INFO:Processed pair (443, 445): 509
+2025-05-17 20:17:44,687 INFO:Saved result for pair (449, 451): 511
+2025-05-17 20:17:44,687 INFO:Processed pair (449, 451): 511
+2025-05-17 20:17:44,688 INFO:Saved result for pair (455, 457): 520
+2025-05-17 20:17:44,688 INFO:Processed pair (455, 457): 520
+2025-05-17 20:17:44,688 INFO:Saved result for pair (461, 463): 518
+2025-05-17 20:17:44,688 INFO:Processed pair (461, 463): 518
+2025-05-17 20:17:44,688 INFO:Saved result for pair (467, 469): 528
+2025-05-17 20:17:44,688 INFO:Processed pair (467, 469): 528
+2025-05-17 20:17:44,689 INFO:Saved result for pair (473, 475): 532
+2025-05-17 20:17:44,689 INFO:Processed pair (473, 475): 532
+2025-05-17 20:17:44,689 INFO:Saved result for pair (479, 481): 535
+2025-05-17 20:17:44,689 INFO:Processed pair (479, 481): 535
+2025-05-17 20:17:44,690 INFO:Saved result for pair (485, 487): 541
+2025-05-17 20:17:44,690 INFO:Processed pair (485, 487): 541
+2025-05-17 20:17:44,690 INFO:Saved result for pair (491, 493): 549
+2025-05-17 20:17:44,690 INFO:Processed pair (491, 493): 549
+2025-05-17 20:17:44,690 INFO:Saved result for pair (497, 499): 554
+2025-05-17 20:17:44,690 INFO:Processed pair (497, 499): 554
+2025-05-17 20:17:44,691 INFO:Saved result for pair (503, 505): 558
+2025-05-17 20:17:44,691 INFO:Processed pair (503, 505): 558
+2025-05-17 20:17:44,691 INFO:Saved result for pair (509, 511): 557
+2025-05-17 20:17:44,691 INFO:Processed pair (509, 511): 557
+2025-05-17 20:17:44,692 INFO:Saved result for pair (515, 517): 564
+2025-05-17 20:17:44,692 INFO:Processed pair (515, 517): 564
+2025-05-17 20:17:44,692 INFO:Saved result for pair (521, 523): 573
+2025-05-17 20:17:44,692 INFO:Processed pair (521, 523): 573
+2025-05-17 20:17:44,692 INFO:Saved result for pair (527, 529): 574
+2025-05-17 20:17:44,692 INFO:Processed pair (527, 529): 574
+2025-05-17 20:17:44,693 INFO:Saved result for pair (533, 535): 661
+2025-05-17 20:17:44,693 INFO:Processed pair (533, 535): 661
+2025-05-17 20:17:44,693 INFO:Saved result for pair (539, 541): 662
+2025-05-17 20:17:44,693 INFO:Processed pair (539, 541): 662
+2025-05-17 20:17:44,694 INFO:Saved result for pair (545, 547): 667
+2025-05-17 20:17:44,694 INFO:Processed pair (545, 547): 667
+2025-05-17 20:17:44,694 INFO:Saved result for pair (551, 553): 672
+2025-05-17 20:17:44,694 INFO:Processed pair (551, 553): 672
+2025-05-17 20:17:44,694 INFO:Saved result for pair (557, 559): 679
+2025-05-17 20:17:44,694 INFO:Processed pair (557, 559): 679
+2025-05-17 20:17:44,695 INFO:Saved result for pair (563, 565): 684
+2025-05-17 20:17:44,695 INFO:Processed pair (563, 565): 684
+2025-05-17 20:17:44,695 INFO:Saved result for pair (569, 571): 690
+2025-05-17 20:17:44,695 INFO:Processed pair (569, 571): 690
+2025-05-17 20:17:44,695 INFO:Saved result for pair (575, 577): 695
+2025-05-17 20:17:44,695 INFO:Processed pair (575, 577): 695
+2025-05-17 20:17:44,696 INFO:Saved result for pair (581, 583): 702
+2025-05-17 20:17:44,696 INFO:Processed pair (581, 583): 702
+2025-05-17 20:17:44,696 INFO:Saved result for pair (587, 589): 705
+2025-05-17 20:17:44,696 INFO:Processed pair (587, 589): 705
+2025-05-17 20:17:44,697 INFO:Saved result for pair (593, 595): 709
+2025-05-17 20:17:44,697 INFO:Processed pair (593, 595): 709
+2025-05-17 20:17:44,697 INFO:Saved result for pair (599, 601): 714
+2025-05-17 20:17:44,697 INFO:Processed pair (599, 601): 714
+2025-05-17 20:17:44,697 INFO:Computation complete.
+2025-05-17 20:18:03,359 INFO:Starting square-island computation...
+2025-05-17 20:18:03,361 INFO:Saved result for pair (5, 7): 0
+2025-05-17 20:18:03,361 INFO:Processed pair (5, 7): 0
+2025-05-17 20:18:03,361 INFO:Saved result for pair (11, 13): 0
+2025-05-17 20:18:03,361 INFO:Processed pair (11, 13): 0
+2025-05-17 20:18:03,362 INFO:Saved result for pair (17, 19): 0
+2025-05-17 20:18:03,362 INFO:Processed pair (17, 19): 0
+2025-05-17 20:18:03,362 INFO:Saved result for pair (23, 25): 0
+2025-05-17 20:18:03,362 INFO:Processed pair (23, 25): 0
+2025-05-17 20:18:03,362 INFO:Saved result for pair (29, 31): 16
+2025-05-17 20:18:03,362 INFO:Processed pair (29, 31): 16
+2025-05-17 20:18:03,363 INFO:Saved result for pair (35, 37): 19
+2025-05-17 20:18:03,363 INFO:Processed pair (35, 37): 19
+2025-05-17 20:18:03,363 INFO:Saved result for pair (41, 43): 20
+2025-05-17 20:18:03,363 INFO:Processed pair (41, 43): 20
+2025-05-17 20:18:03,364 INFO:Saved result for pair (47, 49): 23
+2025-05-17 20:18:03,364 INFO:Processed pair (47, 49): 23
+2025-05-17 20:18:03,364 INFO:Saved result for pair (53, 55): 48
+2025-05-17 20:18:03,364 INFO:Processed pair (53, 55): 48
+2025-05-17 20:18:03,364 INFO:Saved result for pair (59, 61): 49
+2025-05-17 20:18:03,364 INFO:Processed pair (59, 61): 49
+2025-05-17 20:18:03,365 INFO:Saved result for pair (65, 67): 53
+2025-05-17 20:18:03,365 INFO:Processed pair (65, 67): 53
+2025-05-17 20:18:03,365 INFO:Saved result for pair (71, 73): 55
+2025-05-17 20:18:03,365 INFO:Processed pair (71, 73): 55
+2025-05-17 20:18:03,366 INFO:Saved result for pair (77, 79): 60
+2025-05-17 20:18:03,366 INFO:Processed pair (77, 79): 60
+2025-05-17 20:18:03,366 INFO:Saved result for pair (83, 85): 62
+2025-05-17 20:18:03,366 INFO:Processed pair (83, 85): 62
+2025-05-17 20:18:03,366 INFO:Saved result for pair (89, 91): 62
+2025-05-17 20:18:03,366 INFO:Processed pair (89, 91): 62
+2025-05-17 20:18:03,367 INFO:Saved result for pair (95, 97): 66
+2025-05-17 20:18:03,367 INFO:Processed pair (95, 97): 66
+2025-05-17 20:18:03,367 INFO:Saved result for pair (101, 103): 69
+2025-05-17 20:18:03,367 INFO:Processed pair (101, 103): 69
+2025-05-17 20:18:03,368 INFO:Saved result for pair (107, 109): 73
+2025-05-17 20:18:03,368 INFO:Processed pair (107, 109): 73
+2025-05-17 20:18:03,368 INFO:Saved result for pair (113, 115): 76
+2025-05-17 20:18:03,368 INFO:Processed pair (113, 115): 76
+2025-05-17 20:18:03,368 INFO:Saved result for pair (119, 121): 77
+2025-05-17 20:18:03,368 INFO:Processed pair (119, 121): 77
+2025-05-17 20:18:03,369 INFO:Saved result for pair (125, 127): 117
+2025-05-17 20:18:03,369 INFO:Processed pair (125, 127): 117
+2025-05-17 20:18:03,369 INFO:Saved result for pair (131, 133): 118
+2025-05-17 20:18:03,369 INFO:Processed pair (131, 133): 118
+2025-05-17 20:18:03,369 INFO:Saved result for pair (137, 139): 123
+2025-05-17 20:18:03,369 INFO:Processed pair (137, 139): 123
+2025-05-17 20:18:03,370 INFO:Saved result for pair (143, 145): 129
+2025-05-17 20:18:03,370 INFO:Processed pair (143, 145): 129
+2025-05-17 20:18:03,370 INFO:Saved result for pair (149, 151): 129
+2025-05-17 20:18:03,370 INFO:Processed pair (149, 151): 129
+2025-05-17 20:18:03,371 INFO:Saved result for pair (155, 157): 134
+2025-05-17 20:18:03,371 INFO:Processed pair (155, 157): 134
+2025-05-17 20:18:03,371 INFO:Saved result for pair (161, 163): 138
+2025-05-17 20:18:03,371 INFO:Processed pair (161, 163): 138
+2025-05-17 20:18:03,371 INFO:Saved result for pair (167, 169): 141
+2025-05-17 20:18:03,371 INFO:Processed pair (167, 169): 141
+2025-05-17 20:18:03,372 INFO:Saved result for pair (173, 175): 188
+2025-05-17 20:18:03,372 INFO:Processed pair (173, 175): 188
+2025-05-17 20:18:03,372 INFO:Saved result for pair (179, 181): 190
+2025-05-17 20:18:03,372 INFO:Processed pair (179, 181): 190
+2025-05-17 20:18:03,372 INFO:Saved result for pair (185, 187): 197
+2025-05-17 20:18:03,372 INFO:Processed pair (185, 187): 197
+2025-05-17 20:18:03,373 INFO:Saved result for pair (191, 193): 199
+2025-05-17 20:18:03,373 INFO:Processed pair (191, 193): 199
+2025-05-17 20:18:03,373 INFO:Saved result for pair (197, 199): 202
+2025-05-17 20:18:03,373 INFO:Processed pair (197, 199): 202
+2025-05-17 20:18:03,374 INFO:Saved result for pair (203, 205): 207
+2025-05-17 20:18:03,374 INFO:Processed pair (203, 205): 207
+2025-05-17 20:18:03,374 INFO:Saved result for pair (209, 211): 211
+2025-05-17 20:18:03,374 INFO:Processed pair (209, 211): 211
+2025-05-17 20:18:03,375 INFO:Saved result for pair (215, 217): 214
+2025-05-17 20:18:03,375 INFO:Processed pair (215, 217): 214
+2025-05-17 20:18:03,375 INFO:Saved result for pair (221, 223): 220
+2025-05-17 20:18:03,375 INFO:Processed pair (221, 223): 220
+2025-05-17 20:18:03,376 INFO:Saved result for pair (227, 229): 225
+2025-05-17 20:18:03,376 INFO:Processed pair (227, 229): 225
+2025-05-17 20:18:03,376 INFO:Saved result for pair (233, 235): 229
+2025-05-17 20:18:03,376 INFO:Processed pair (233, 235): 229
+2025-05-17 20:18:03,376 INFO:Saved result for pair (239, 241): 230
+2025-05-17 20:18:03,376 INFO:Processed pair (239, 241): 230
+2025-05-17 20:18:03,377 INFO:Saved result for pair (245, 247): 237
+2025-05-17 20:18:03,377 INFO:Processed pair (245, 247): 237
+2025-05-17 20:18:03,377 INFO:Saved result for pair (251, 253): 240
+2025-05-17 20:18:03,377 INFO:Processed pair (251, 253): 240
+2025-05-17 20:18:03,377 INFO:Saved result for pair (257, 259): 246
+2025-05-17 20:18:03,377 INFO:Processed pair (257, 259): 246
+2025-05-17 20:18:03,378 INFO:Saved result for pair (263, 265): 248
+2025-05-17 20:18:03,378 INFO:Processed pair (263, 265): 248
+2025-05-17 20:18:03,378 INFO:Saved result for pair (269, 271): 250
+2025-05-17 20:18:03,378 INFO:Processed pair (269, 271): 250
+2025-05-17 20:18:03,379 INFO:Saved result for pair (275, 277): 256
+2025-05-17 20:18:03,379 INFO:Processed pair (275, 277): 256
+2025-05-17 20:18:03,379 INFO:Saved result for pair (281, 283): 258
+2025-05-17 20:18:03,379 INFO:Processed pair (281, 283): 258
+2025-05-17 20:18:03,380 INFO:Saved result for pair (287, 289): 267
+2025-05-17 20:18:03,380 INFO:Processed pair (287, 289): 267
+2025-05-17 20:18:03,380 INFO:Saved result for pair (293, 295): 326
+2025-05-17 20:18:03,380 INFO:Processed pair (293, 295): 326
+2025-05-17 20:18:03,380 INFO:Saved result for pair (299, 301): 329
+2025-05-17 20:18:03,380 INFO:Processed pair (299, 301): 329
+2025-05-17 20:18:03,381 INFO:Saved result for pair (305, 307): 333
+2025-05-17 20:18:03,381 INFO:Processed pair (305, 307): 333
+2025-05-17 20:18:03,381 INFO:Saved result for pair (311, 313): 338
+2025-05-17 20:18:03,381 INFO:Processed pair (311, 313): 338
+2025-05-17 20:18:03,382 INFO:Saved result for pair (317, 319): 343
+2025-05-17 20:18:03,382 INFO:Processed pair (317, 319): 343
+2025-05-17 20:18:03,382 INFO:Saved result for pair (323, 325): 350
+2025-05-17 20:18:03,382 INFO:Processed pair (323, 325): 350
+2025-05-17 20:18:03,382 INFO:Saved result for pair (329, 331): 350
+2025-05-17 20:18:03,382 INFO:Processed pair (329, 331): 350
+2025-05-17 20:18:03,383 INFO:Saved result for pair (335, 337): 356
+2025-05-17 20:18:03,383 INFO:Processed pair (335, 337): 356
+2025-05-17 20:18:03,384 INFO:Saved result for pair (341, 343): 361
+2025-05-17 20:18:03,384 INFO:Processed pair (341, 343): 361
+2025-05-17 20:18:03,384 INFO:Saved result for pair (347, 349): 366
+2025-05-17 20:18:03,384 INFO:Processed pair (347, 349): 366
+2025-05-17 20:18:03,384 INFO:Saved result for pair (353, 355): 371
+2025-05-17 20:18:03,384 INFO:Processed pair (353, 355): 371
+2025-05-17 20:18:03,385 INFO:Saved result for pair (359, 361): 372
+2025-05-17 20:18:03,385 INFO:Processed pair (359, 361): 372
+2025-05-17 20:18:03,385 INFO:Saved result for pair (365, 367): 442
+2025-05-17 20:18:03,385 INFO:Processed pair (365, 367): 442
+2025-05-17 20:18:03,386 INFO:Saved result for pair (371, 373): 447
+2025-05-17 20:18:03,386 INFO:Processed pair (371, 373): 447
+2025-05-17 20:18:03,386 INFO:Saved result for pair (377, 379): 455
+2025-05-17 20:18:03,386 INFO:Processed pair (377, 379): 455
+2025-05-17 20:18:03,387 INFO:Saved result for pair (383, 385): 460
+2025-05-17 20:18:03,387 INFO:Processed pair (383, 385): 460
+2025-05-17 20:18:03,387 INFO:Saved result for pair (389, 391): 462
+2025-05-17 20:18:03,387 INFO:Processed pair (389, 391): 462
+2025-05-17 20:18:03,387 INFO:Saved result for pair (395, 397): 465
+2025-05-17 20:18:03,387 INFO:Processed pair (395, 397): 465
+2025-05-17 20:18:03,388 INFO:Saved result for pair (401, 403): 470
+2025-05-17 20:18:03,388 INFO:Processed pair (401, 403): 470
+2025-05-17 20:18:03,388 INFO:Saved result for pair (407, 409): 478
+2025-05-17 20:18:03,388 INFO:Processed pair (407, 409): 478
+2025-05-17 20:18:03,389 INFO:Saved result for pair (413, 415): 482
+2025-05-17 20:18:03,389 INFO:Processed pair (413, 415): 482
+2025-05-17 20:18:03,389 INFO:Saved result for pair (419, 421): 485
+2025-05-17 20:18:03,389 INFO:Processed pair (419, 421): 485
+2025-05-17 20:18:03,390 INFO:Saved result for pair (425, 427): 491
+2025-05-17 20:18:03,390 INFO:Processed pair (425, 427): 491
+2025-05-17 20:18:03,390 INFO:Saved result for pair (431, 433): 493
+2025-05-17 20:18:03,390 INFO:Processed pair (431, 433): 493
+2025-05-17 20:18:03,391 INFO:Saved result for pair (437, 439): 503
+2025-05-17 20:18:03,391 INFO:Processed pair (437, 439): 503
+2025-05-17 20:18:03,391 INFO:Saved result for pair (443, 445): 509
+2025-05-17 20:18:03,391 INFO:Processed pair (443, 445): 509
+2025-05-17 20:18:03,392 INFO:Saved result for pair (449, 451): 511
+2025-05-17 20:18:03,392 INFO:Processed pair (449, 451): 511
+2025-05-17 20:18:03,392 INFO:Saved result for pair (455, 457): 520
+2025-05-17 20:18:03,392 INFO:Processed pair (455, 457): 520
+2025-05-17 20:18:03,393 INFO:Saved result for pair (461, 463): 518
+2025-05-17 20:18:03,393 INFO:Processed pair (461, 463): 518
+2025-05-17 20:18:03,393 INFO:Saved result for pair (467, 469): 528
+2025-05-17 20:18:03,393 INFO:Processed pair (467, 469): 528
+2025-05-17 20:18:03,393 INFO:Saved result for pair (473, 475): 532
+2025-05-17 20:18:03,393 INFO:Processed pair (473, 475): 532
+2025-05-17 20:18:03,394 INFO:Saved result for pair (479, 481): 535
+2025-05-17 20:18:03,394 INFO:Processed pair (479, 481): 535
+2025-05-17 20:18:03,394 INFO:Saved result for pair (485, 487): 541
+2025-05-17 20:18:03,394 INFO:Processed pair (485, 487): 541
+2025-05-17 20:18:03,395 INFO:Saved result for pair (491, 493): 549
+2025-05-17 20:18:03,395 INFO:Processed pair (491, 493): 549
+2025-05-17 20:18:03,395 INFO:Saved result for pair (497, 499): 554
+2025-05-17 20:18:03,395 INFO:Processed pair (497, 499): 554
+2025-05-17 20:18:03,396 INFO:Saved result for pair (503, 505): 558
+2025-05-17 20:18:03,396 INFO:Processed pair (503, 505): 558
+2025-05-17 20:18:03,396 INFO:Saved result for pair (509, 511): 557
+2025-05-17 20:18:03,396 INFO:Processed pair (509, 511): 557
+2025-05-17 20:18:03,396 INFO:Saved result for pair (515, 517): 564
+2025-05-17 20:18:03,396 INFO:Processed pair (515, 517): 564
+2025-05-17 20:18:03,397 INFO:Saved result for pair (521, 523): 573
+2025-05-17 20:18:03,397 INFO:Processed pair (521, 523): 573
+2025-05-17 20:18:03,397 INFO:Saved result for pair (527, 529): 574
+2025-05-17 20:18:03,397 INFO:Processed pair (527, 529): 574
+2025-05-17 20:18:03,398 INFO:Saved result for pair (533, 535): 661
+2025-05-17 20:18:03,398 INFO:Processed pair (533, 535): 661
+2025-05-17 20:18:03,398 INFO:Saved result for pair (539, 541): 662
+2025-05-17 20:18:03,398 INFO:Processed pair (539, 541): 662
+2025-05-17 20:18:03,399 INFO:Saved result for pair (545, 547): 667
+2025-05-17 20:18:03,399 INFO:Processed pair (545, 547): 667
+2025-05-17 20:18:03,399 INFO:Saved result for pair (551, 553): 672
+2025-05-17 20:18:03,399 INFO:Processed pair (551, 553): 672
+2025-05-17 20:18:03,400 INFO:Saved result for pair (557, 559): 679
+2025-05-17 20:18:03,400 INFO:Processed pair (557, 559): 679
+2025-05-17 20:18:03,400 INFO:Saved result for pair (563, 565): 684
+2025-05-17 20:18:03,400 INFO:Processed pair (563, 565): 684
+2025-05-17 20:18:03,401 INFO:Saved result for pair (569, 571): 690
+2025-05-17 20:18:03,401 INFO:Processed pair (569, 571): 690
+2025-05-17 20:18:03,401 INFO:Saved result for pair (575, 577): 695
+2025-05-17 20:18:03,401 INFO:Processed pair (575, 577): 695
+2025-05-17 20:18:03,402 INFO:Saved result for pair (581, 583): 702
+2025-05-17 20:18:03,402 INFO:Processed pair (581, 583): 702
+2025-05-17 20:18:03,402 INFO:Saved result for pair (587, 589): 705
+2025-05-17 20:18:03,402 INFO:Processed pair (587, 589): 705
+2025-05-17 20:18:03,402 INFO:Saved result for pair (593, 595): 709
+2025-05-17 20:18:03,402 INFO:Processed pair (593, 595): 709
+2025-05-17 20:18:03,403 INFO:Saved result for pair (599, 601): 714
+2025-05-17 20:18:03,403 INFO:Processed pair (599, 601): 714
+2025-05-17 20:18:03,403 INFO:Computation complete.
+2025-05-18 11:01:46,082 INFO:Starting square-island computation...
+2025-05-18 11:01:46,086 INFO:Saved result for pair (5, 7): 0
+2025-05-18 11:01:46,086 INFO:Processed pair (5, 7): 0
+2025-05-18 11:01:46,086 INFO:Saved result for pair (11, 13): 0
+2025-05-18 11:01:46,086 INFO:Processed pair (11, 13): 0
+2025-05-18 11:01:46,087 INFO:Saved result for pair (17, 19): 0
+2025-05-18 11:01:46,087 INFO:Processed pair (17, 19): 0
+2025-05-18 11:01:46,087 INFO:Saved result for pair (23, 25): 0
+2025-05-18 11:01:46,087 INFO:Processed pair (23, 25): 0
+2025-05-18 11:01:46,088 INFO:Saved result for pair (29, 31): 16
+2025-05-18 11:01:46,088 INFO:Processed pair (29, 31): 16
+2025-05-18 11:01:46,089 INFO:Saved result for pair (35, 37): 19
+2025-05-18 11:01:46,089 INFO:Processed pair (35, 37): 19
+2025-05-18 11:01:46,089 INFO:Saved result for pair (41, 43): 20
+2025-05-18 11:01:46,089 INFO:Processed pair (41, 43): 20
+2025-05-18 11:01:46,090 INFO:Saved result for pair (47, 49): 23
+2025-05-18 11:01:46,090 INFO:Processed pair (47, 49): 23
+2025-05-18 11:01:46,090 INFO:Saved result for pair (53, 55): 48
+2025-05-18 11:01:46,090 INFO:Processed pair (53, 55): 48
+2025-05-18 11:01:46,091 INFO:Saved result for pair (59, 61): 49
+2025-05-18 11:01:46,091 INFO:Processed pair (59, 61): 49
+2025-05-18 11:01:46,091 INFO:Saved result for pair (65, 67): 53
+2025-05-18 11:01:46,091 INFO:Processed pair (65, 67): 53
+2025-05-18 11:01:46,092 INFO:Saved result for pair (71, 73): 55
+2025-05-18 11:01:46,092 INFO:Processed pair (71, 73): 55
+2025-05-18 11:01:46,092 INFO:Saved result for pair (77, 79): 60
+2025-05-18 11:01:46,092 INFO:Processed pair (77, 79): 60
+2025-05-18 11:01:46,092 INFO:Saved result for pair (83, 85): 62
+2025-05-18 11:01:46,093 INFO:Processed pair (83, 85): 62
+2025-05-18 11:01:46,093 INFO:Saved result for pair (89, 91): 62
+2025-05-18 11:01:46,093 INFO:Processed pair (89, 91): 62
+2025-05-18 11:01:46,093 INFO:Saved result for pair (95, 97): 66
+2025-05-18 11:01:46,093 INFO:Processed pair (95, 97): 66
+2025-05-18 11:01:46,094 INFO:Saved result for pair (101, 103): 69
+2025-05-18 11:01:46,094 INFO:Processed pair (101, 103): 69
+2025-05-18 11:01:46,094 INFO:Saved result for pair (107, 109): 73
+2025-05-18 11:01:46,094 INFO:Processed pair (107, 109): 73
+2025-05-18 11:01:46,095 INFO:Saved result for pair (113, 115): 76
+2025-05-18 11:01:46,095 INFO:Processed pair (113, 115): 76
+2025-05-18 11:01:46,095 INFO:Saved result for pair (119, 121): 77
+2025-05-18 11:01:46,095 INFO:Processed pair (119, 121): 77
+2025-05-18 11:01:46,095 INFO:Saved result for pair (125, 127): 117
+2025-05-18 11:01:46,096 INFO:Processed pair (125, 127): 117
+2025-05-18 11:01:46,096 INFO:Saved result for pair (131, 133): 118
+2025-05-18 11:01:46,096 INFO:Processed pair (131, 133): 118
+2025-05-18 11:01:46,097 INFO:Saved result for pair (137, 139): 123
+2025-05-18 11:01:46,097 INFO:Processed pair (137, 139): 123
+2025-05-18 11:01:46,097 INFO:Saved result for pair (143, 145): 129
+2025-05-18 11:01:46,097 INFO:Processed pair (143, 145): 129
+2025-05-18 11:01:46,098 INFO:Saved result for pair (149, 151): 129
+2025-05-18 11:01:46,098 INFO:Processed pair (149, 151): 129
+2025-05-18 11:01:46,098 INFO:Saved result for pair (155, 157): 134
+2025-05-18 11:01:46,098 INFO:Processed pair (155, 157): 134
+2025-05-18 11:01:46,098 INFO:Saved result for pair (161, 163): 138
+2025-05-18 11:01:46,098 INFO:Processed pair (161, 163): 138
+2025-05-18 11:01:46,099 INFO:Saved result for pair (167, 169): 141
+2025-05-18 11:01:46,099 INFO:Processed pair (167, 169): 141
+2025-05-18 11:01:46,099 INFO:Saved result for pair (173, 175): 188
+2025-05-18 11:01:46,099 INFO:Processed pair (173, 175): 188
+2025-05-18 11:01:46,100 INFO:Saved result for pair (179, 181): 190
+2025-05-18 11:01:46,100 INFO:Processed pair (179, 181): 190
+2025-05-18 11:01:46,100 INFO:Saved result for pair (185, 187): 197
+2025-05-18 11:01:46,100 INFO:Processed pair (185, 187): 197
+2025-05-18 11:01:46,101 INFO:Saved result for pair (191, 193): 199
+2025-05-18 11:01:46,101 INFO:Processed pair (191, 193): 199
+2025-05-18 11:01:46,101 INFO:Saved result for pair (197, 199): 202
+2025-05-18 11:01:46,101 INFO:Processed pair (197, 199): 202
+2025-05-18 11:01:46,101 INFO:Saved result for pair (203, 205): 207
+2025-05-18 11:01:46,101 INFO:Processed pair (203, 205): 207
+2025-05-18 11:01:46,102 INFO:Saved result for pair (209, 211): 211
+2025-05-18 11:01:46,102 INFO:Processed pair (209, 211): 211
+2025-05-18 11:01:46,102 INFO:Saved result for pair (215, 217): 214
+2025-05-18 11:01:46,102 INFO:Processed pair (215, 217): 214
+2025-05-18 11:01:46,102 INFO:Saved result for pair (221, 223): 220
+2025-05-18 11:01:46,102 INFO:Processed pair (221, 223): 220
+2025-05-18 11:01:46,103 INFO:Saved result for pair (227, 229): 225
+2025-05-18 11:01:46,103 INFO:Processed pair (227, 229): 225
+2025-05-18 11:01:46,103 INFO:Saved result for pair (233, 235): 229
+2025-05-18 11:01:46,103 INFO:Processed pair (233, 235): 229
+2025-05-18 11:01:46,103 INFO:Saved result for pair (239, 241): 230
+2025-05-18 11:01:46,103 INFO:Processed pair (239, 241): 230
+2025-05-18 11:01:46,104 INFO:Saved result for pair (245, 247): 237
+2025-05-18 11:01:46,104 INFO:Processed pair (245, 247): 237
+2025-05-18 11:01:46,104 INFO:Saved result for pair (251, 253): 240
+2025-05-18 11:01:46,104 INFO:Processed pair (251, 253): 240
+2025-05-18 11:01:46,105 INFO:Saved result for pair (257, 259): 246
+2025-05-18 11:01:46,105 INFO:Processed pair (257, 259): 246
+2025-05-18 11:01:46,105 INFO:Saved result for pair (263, 265): 248
+2025-05-18 11:01:46,105 INFO:Processed pair (263, 265): 248
+2025-05-18 11:01:46,106 INFO:Saved result for pair (269, 271): 250
+2025-05-18 11:01:46,106 INFO:Processed pair (269, 271): 250
+2025-05-18 11:01:46,106 INFO:Saved result for pair (275, 277): 256
+2025-05-18 11:01:46,107 INFO:Processed pair (275, 277): 256
+2025-05-18 11:01:46,107 INFO:Saved result for pair (281, 283): 258
+2025-05-18 11:01:46,107 INFO:Processed pair (281, 283): 258
+2025-05-18 11:01:46,107 INFO:Saved result for pair (287, 289): 267
+2025-05-18 11:01:46,107 INFO:Processed pair (287, 289): 267
+2025-05-18 11:01:46,108 INFO:Saved result for pair (293, 295): 326
+2025-05-18 11:01:46,108 INFO:Processed pair (293, 295): 326
+2025-05-18 11:01:46,108 INFO:Saved result for pair (299, 301): 329
+2025-05-18 11:01:46,108 INFO:Processed pair (299, 301): 329
+2025-05-18 11:01:46,109 INFO:Saved result for pair (305, 307): 333
+2025-05-18 11:01:46,109 INFO:Processed pair (305, 307): 333
+2025-05-18 11:01:46,109 INFO:Saved result for pair (311, 313): 338
+2025-05-18 11:01:46,109 INFO:Processed pair (311, 313): 338
+2025-05-18 11:01:46,110 INFO:Saved result for pair (317, 319): 343
+2025-05-18 11:01:46,110 INFO:Processed pair (317, 319): 343
+2025-05-18 11:01:46,110 INFO:Saved result for pair (323, 325): 350
+2025-05-18 11:01:46,110 INFO:Processed pair (323, 325): 350
+2025-05-18 11:01:46,110 INFO:Saved result for pair (329, 331): 350
+2025-05-18 11:01:46,110 INFO:Processed pair (329, 331): 350
+2025-05-18 11:01:46,111 INFO:Saved result for pair (335, 337): 356
+2025-05-18 11:01:46,111 INFO:Processed pair (335, 337): 356
+2025-05-18 11:01:46,111 INFO:Saved result for pair (341, 343): 361
+2025-05-18 11:01:46,111 INFO:Processed pair (341, 343): 361
+2025-05-18 11:01:46,112 INFO:Saved result for pair (347, 349): 366
+2025-05-18 11:01:46,112 INFO:Processed pair (347, 349): 366
+2025-05-18 11:01:46,112 INFO:Saved result for pair (353, 355): 371
+2025-05-18 11:01:46,112 INFO:Processed pair (353, 355): 371
+2025-05-18 11:01:46,113 INFO:Saved result for pair (359, 361): 372
+2025-05-18 11:01:46,113 INFO:Processed pair (359, 361): 372
+2025-05-18 11:01:46,113 INFO:Saved result for pair (365, 367): 442
+2025-05-18 11:01:46,113 INFO:Processed pair (365, 367): 442
+2025-05-18 11:01:46,113 INFO:Saved result for pair (371, 373): 447
+2025-05-18 11:01:46,113 INFO:Processed pair (371, 373): 447
+2025-05-18 11:01:46,114 INFO:Saved result for pair (377, 379): 455
+2025-05-18 11:01:46,114 INFO:Processed pair (377, 379): 455
+2025-05-18 11:01:46,114 INFO:Saved result for pair (383, 385): 460
+2025-05-18 11:01:46,114 INFO:Processed pair (383, 385): 460
+2025-05-18 11:01:46,114 INFO:Saved result for pair (389, 391): 462
+2025-05-18 11:01:46,114 INFO:Processed pair (389, 391): 462
+2025-05-18 11:01:46,115 INFO:Saved result for pair (395, 397): 465
+2025-05-18 11:01:46,115 INFO:Processed pair (395, 397): 465
+2025-05-18 11:01:46,115 INFO:Saved result for pair (401, 403): 470
+2025-05-18 11:01:46,115 INFO:Processed pair (401, 403): 470
+2025-05-18 11:01:46,116 INFO:Saved result for pair (407, 409): 478
+2025-05-18 11:01:46,116 INFO:Processed pair (407, 409): 478
+2025-05-18 11:01:46,116 INFO:Saved result for pair (413, 415): 482
+2025-05-18 11:01:46,116 INFO:Processed pair (413, 415): 482
+2025-05-18 11:01:46,116 INFO:Saved result for pair (419, 421): 485
+2025-05-18 11:01:46,116 INFO:Processed pair (419, 421): 485
+2025-05-18 11:01:46,117 INFO:Saved result for pair (425, 427): 491
+2025-05-18 11:01:46,117 INFO:Processed pair (425, 427): 491
+2025-05-18 11:01:46,117 INFO:Saved result for pair (431, 433): 493
+2025-05-18 11:01:46,117 INFO:Processed pair (431, 433): 493
+2025-05-18 11:01:46,117 INFO:Saved result for pair (437, 439): 503
+2025-05-18 11:01:46,117 INFO:Processed pair (437, 439): 503
+2025-05-18 11:01:46,118 INFO:Saved result for pair (443, 445): 509
+2025-05-18 11:01:46,118 INFO:Processed pair (443, 445): 509
+2025-05-18 11:01:46,118 INFO:Saved result for pair (449, 451): 511
+2025-05-18 11:01:46,118 INFO:Processed pair (449, 451): 511
+2025-05-18 11:01:46,118 INFO:Saved result for pair (455, 457): 520
+2025-05-18 11:01:46,118 INFO:Processed pair (455, 457): 520
+2025-05-18 11:01:46,119 INFO:Saved result for pair (461, 463): 518
+2025-05-18 11:01:46,119 INFO:Processed pair (461, 463): 518
+2025-05-18 11:01:46,119 INFO:Saved result for pair (467, 469): 528
+2025-05-18 11:01:46,119 INFO:Processed pair (467, 469): 528
+2025-05-18 11:01:46,119 INFO:Saved result for pair (473, 475): 532
+2025-05-18 11:01:46,120 INFO:Processed pair (473, 475): 532
+2025-05-18 11:01:46,120 INFO:Saved result for pair (479, 481): 535
+2025-05-18 11:01:46,120 INFO:Processed pair (479, 481): 535
+2025-05-18 11:01:46,120 INFO:Saved result for pair (485, 487): 541
+2025-05-18 11:01:46,120 INFO:Processed pair (485, 487): 541
+2025-05-18 11:01:46,121 INFO:Saved result for pair (491, 493): 549
+2025-05-18 11:01:46,121 INFO:Processed pair (491, 493): 549
+2025-05-18 11:01:46,121 INFO:Saved result for pair (497, 499): 554
+2025-05-18 11:01:46,121 INFO:Processed pair (497, 499): 554
+2025-05-18 11:01:46,122 INFO:Saved result for pair (503, 505): 558
+2025-05-18 11:01:46,122 INFO:Processed pair (503, 505): 558
+2025-05-18 11:01:46,122 INFO:Saved result for pair (509, 511): 557
+2025-05-18 11:01:46,122 INFO:Processed pair (509, 511): 557
+2025-05-18 11:01:46,123 INFO:Saved result for pair (515, 517): 564
+2025-05-18 11:01:46,123 INFO:Processed pair (515, 517): 564
+2025-05-18 11:01:46,123 INFO:Saved result for pair (521, 523): 573
+2025-05-18 11:01:46,123 INFO:Processed pair (521, 523): 573
+2025-05-18 11:01:46,123 INFO:Saved result for pair (527, 529): 574
+2025-05-18 11:01:46,123 INFO:Processed pair (527, 529): 574
+2025-05-18 11:01:46,124 INFO:Saved result for pair (533, 535): 661
+2025-05-18 11:01:46,124 INFO:Processed pair (533, 535): 661
+2025-05-18 11:01:46,124 INFO:Saved result for pair (539, 541): 662
+2025-05-18 11:01:46,124 INFO:Processed pair (539, 541): 662
+2025-05-18 11:01:46,125 INFO:Saved result for pair (545, 547): 667
+2025-05-18 11:01:46,125 INFO:Processed pair (545, 547): 667
+2025-05-18 11:01:46,125 INFO:Saved result for pair (551, 553): 672
+2025-05-18 11:01:46,125 INFO:Processed pair (551, 553): 672
+2025-05-18 11:01:46,125 INFO:Saved result for pair (557, 559): 679
+2025-05-18 11:01:46,125 INFO:Processed pair (557, 559): 679
+2025-05-18 11:01:46,126 INFO:Saved result for pair (563, 565): 684
+2025-05-18 11:01:46,126 INFO:Processed pair (563, 565): 684
+2025-05-18 11:01:46,126 INFO:Saved result for pair (569, 571): 690
+2025-05-18 11:01:46,126 INFO:Processed pair (569, 571): 690
+2025-05-18 11:01:46,127 INFO:Saved result for pair (575, 577): 695
+2025-05-18 11:01:46,127 INFO:Processed pair (575, 577): 695
+2025-05-18 11:01:46,127 INFO:Saved result for pair (581, 583): 702
+2025-05-18 11:01:46,127 INFO:Processed pair (581, 583): 702
+2025-05-18 11:01:46,128 INFO:Saved result for pair (587, 589): 705
+2025-05-18 11:01:46,128 INFO:Processed pair (587, 589): 705
+2025-05-18 11:01:46,128 INFO:Saved result for pair (593, 595): 709
+2025-05-18 11:01:46,128 INFO:Processed pair (593, 595): 709
+2025-05-18 11:01:46,128 INFO:Saved result for pair (599, 601): 714
+2025-05-18 11:01:46,128 INFO:Processed pair (599, 601): 714
+2025-05-18 11:01:46,128 INFO:Computation complete.
