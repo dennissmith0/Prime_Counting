@@ -36,5 +36,5 @@ def find_twin_primes_between_squares(input_pair):
 
 # Test the function with input pair (p, p + 2)
 start_time = time.time()
-print(find_twin_primes_between_squares((6263, 6265)))
+print(find_twin_primes_between_squares((6269, 6271)))
 print('Time: ', (time.time() - start_time) / 60, ' minutes')
